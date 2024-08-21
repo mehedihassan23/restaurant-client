@@ -1,0 +1,28 @@
+.user-sidebar ul{
+    margin-left: 2rem;
+}
+.user-sidebar hr{
+    width: 90%;
+    margin: 3rem 0;
+}
+.user-sidebar ul li:first-child{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 5rem 0;
+    text-transform: uppercase; 
+}
+.user-sidebar ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.user-sidebar ul li a.user-sidebar-link{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.user-sidebar ul li a.user-sidebar-link svg{
+    font-size: 2rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,23 @@
+.user-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-review .review-form{
+    margin-top: 5rem;
+    background-color: rgb(209, 209, 209);
+    padding: 4rem;
+    padding-top: 1rem;
+}
+.user-review .review-form ul{
+    text-align: center;
+}
+.user-review .review-form ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.user-review .review-form ul li svg{
+    font-size: 2rem;
+}

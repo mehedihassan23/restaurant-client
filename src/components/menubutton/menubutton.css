@@ -1,0 +1,19 @@
+.home-menu-button{
+    padding: 1rem 2rem;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+}
+.home-menu-button a.home-menu-button-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.home-menu-button:hover{
+    background-color: #1F2937;
+    color: #fff;
+}

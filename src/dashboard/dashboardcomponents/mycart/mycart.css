@@ -1,0 +1,21 @@
+.mycartContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.mycartContent li{
+    list-style: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.mycartContent li button{
+     background-color: #e0860c;
+     border: none;
+     outline: none;
+     padding: 1rem 2rem;
+     border-radius: 0.5rem;
+     cursor: pointer;
+     color: white;
+     font-weight: 700;
+}

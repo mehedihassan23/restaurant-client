@@ -1,0 +1,20 @@
+
+.reservation .reservation-table{
+    margin: 10rem 2rem 0 2rem;
+}
+.reservation .reservation-table form .form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.reservation .reservation-table form input[type="submit"]{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.reservation .reservation-table form .input-table{
+    margin: 0 1rem;
+}
+.reservation .reservation-table form .input-table input, select{
+    border: 1px solid rgb(228, 228, 228);
+}

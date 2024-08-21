@@ -1,0 +1,32 @@
+.featured{
+    margin: 5rem 0;
+    height: 30rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured div{
+    padding: 1rem 2rem;
+    height: 20rem;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.featured div h1{
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.featured div p{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+}

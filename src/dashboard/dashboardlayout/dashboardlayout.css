@@ -1,0 +1,12 @@
+.dashboard-layout{
+    width: 100vw;
+    display: flex;
+}
+.dashboard-layout .dashboard-sidebar{
+    flex-basis: 25%;
+    background-color: #D1A054;
+}
+.dashboard-layout .dashboard-content{
+    flex-basis: 75%;
+    
+}

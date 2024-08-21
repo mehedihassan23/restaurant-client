@@ -1,0 +1,16 @@
+.managebooking{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.booking-table{
+    margin-top: 2rem;
+    width: 90%;
+}
+.booking-button{
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 0 .5rem
+}

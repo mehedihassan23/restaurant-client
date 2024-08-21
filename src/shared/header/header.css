@@ -1,0 +1,91 @@
+.navBar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0 2rem;  
+    z-index: 1000;  
+}
+.navBar ul{
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navBar ul li{
+    list-style: none;
+    margin-right: 1rem;
+}
+.navBar ul li:first-child{
+    margin-right: auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.navBar ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s;
+}
+.navBar ul li a.active{
+    color: #EEFF25;
+}
+.navBar ul li a:hover{
+    color: #EEFF25;
+}
+.navBar ul li a svg{
+    font-size: 1.5rem;
+}
+.navBar ul li a span{
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+.navBar ul li.hideDeskTop{
+    display: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+/*sidebar*/
+.sideBar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25rem;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.sideBar ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.sideBar li{
+    width: 100%;
+    padding-left: 2rem;
+}
+.sideBar li:hover{
+    background-color: black;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .mobileHide{
+    display: none;
+   }
+   .navBar ul li.hideDeskTop{
+    display: block;
+   }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}

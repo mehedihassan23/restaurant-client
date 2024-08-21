@@ -1,0 +1,15 @@
+.callUs{
+    background-color: black;
+    padding: 5rem 0;
+}
+.callUs p{
+    font-size: 2.5rem;
+    height: 2rem;
+    width: 30rem;
+    margin: 0 auto;
+    color: white;
+}
+.callUs p a{
+    text-decoration: none;
+    color: white;
+}

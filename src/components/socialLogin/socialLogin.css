@@ -1,0 +1,22 @@
+.social-link{
+    height: 5rem;
+    width: 15rem;
+    margin: 0 auto;
+}
+.social-link h2{
+    color: black;
+    margin: 1rem 0;
+}
+.social-link .social-login-link{
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.social-link .social-login-link:last-child{
+    margin-right: 0;
+}
+.social-link .social-login-link:hover{
+    color: #D1A054;
+}

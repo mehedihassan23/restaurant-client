@@ -1,0 +1,19 @@
+.testimonial{}
+.testimonial .testimonial-slide{
+    list-style: none;
+    width: 50rem; 
+    height: auto;
+    margin: 1rem auto;
+}
+.testimonial .testimonial-slide li{
+    text-align: center;
+}
+.testimonial .testimonial-slide li:nth-child(3){
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.testimonial .testimonial-slide li:nth-child(4){
+    font-size: 2rem;
+    color: #CD9003;
+    font-weight: 700;
+}

@@ -1,0 +1,66 @@
+
+.contact-forms form{
+    width: 60rem;
+    height: auto;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: rgb(209, 209, 209);
+}
+.contact-forms form input[type="submit"]{
+    padding: .8rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-forms form input[type="submit"]:hover{
+    background-color: gray;
+    color: white;
+}
+.contact-forms form .inputGroup{
+    display: flex;
+}
+.contact-forms form .inputGroup .inputDiv{
+    width: 50%;
+    margin-right: 1rem;
+}
+.contact-forms form .inputGroup .inputDiv label{
+     font-size: 1.5rem;
+     font-weight: 600;
+     display: block;
+}
+.contact-forms form .inputGroup .inputDiv input{
+    height: 3rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+.contact-forms form .inputDiv{
+    width: 100%;
+    margin: 1rem 0;
+}
+.contact-forms form .inputDiv label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+}
+.contact-forms form .inputDiv input{
+    height: 3rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+.contact-forms form .inputDiv textarea{
+    resize: none;
+    height: 10rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}

@@ -1,0 +1,38 @@
+.manageitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    margin-top: 2rem;
+    width: 50rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+ 
+table thead tr{
+    background: linear-gradient(90deg, rgba(131,93,35,1) 0%,
+     rgba(181,129,48,1) 100%);
+    color: white;
+    text-align: left;
+}
+table tbody tr{
+    border-bottom: 2px solid rgb(190, 190, 190);
+}
+table tbody tr:nth-child(even){
+    background: rgb(228, 228, 228);
+}
+table tbody tr:last-of-type{
+    border-bottom: 2px solid rgba(181,129,48,1);
+}
+ th, td{
+    padding: .8rem 1.5rem;
+ }
+ 

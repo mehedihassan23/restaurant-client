@@ -1,0 +1,82 @@
+.banner{
+    margin: 5rem 0;
+    padding: 5rem 0;
+    height: 60rem;
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/doolocyaf/image/upload/v1720292492/Rectangle_13_jyvtlq.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .sectionTitle p, h2{
+    color: white;
+}
+.banner .sectionTitle h2{
+    color: white;
+}
+.banner .banner-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.banner .banner-container .banner-image{
+    height: 20rem;
+    width: 30rem;
+}
+.banner .banner-container .banner-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.banner .banner-container .banner-details{
+    margin-left: 5rem;
+    width: 35rem;
+}
+.banner .banner-container .banner-details p:nth-child(1){
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.banner .banner-container .banner-details p:nth-child(2){
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.banner .banner-container .banner-details p:nth-child(3){
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.banner .banner-container .banner-details button{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.banner .banner-container .banner-details button:hover{
+    background: linear-gradient(to right, rgb(238, 238, 238), rgb(182, 182, 182));
+    color: black;
+}
+
+ 
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .banner{
+        height: auto;
+    }
+    .banner .banner-container{
+       flex-direction: column; 
+    }
+    .banner .banner-container .banner-image{
+        margin-bottom: 3rem;
+    }
+  }

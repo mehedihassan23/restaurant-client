@@ -1,0 +1,41 @@
+ .addItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .addItem .additemforms{
+   background: rgb(199, 199, 199);
+   padding: 5rem;
+ }
+ .row{
+   display: flex;
+ }
+ .row .inputGroup{
+   flex-basis: 48%;
+ }
+ .additemforms{
+    margin-top: 5rem;
+ }
+.additemforms form{
+   width: 40rem;
+}
+input, select, textarea{
+   width: 100%;
+   padding-left: 5px;
+   border: none;
+   outline: none;
+   resize: none;
+}
+select{
+   padding: .5rem 0;
+}
+input[type="submit"]{
+   width: 50%;
+   margin-top: 1rem;
+   background: linear-gradient(90deg, rgba(131,93,35,1) 0%, rgba(181,129,48,1) 100%);
+   cursor: pointer;
+} 
+label{
+   font-size: 1.5rem;
+}

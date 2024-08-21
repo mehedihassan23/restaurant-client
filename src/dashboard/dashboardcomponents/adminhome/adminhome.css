@@ -1,0 +1,61 @@
+.admin-home{
+    margin: 0 1rem;
+}
+.admin-home .welcome-message{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.admin-home .admin-boxs{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+}
+.admin-home .admin-boxs .admin-box{
+     margin: 1rem 2rem;
+     padding: 1rem 2rem;
+     border-radius: .5rem;
+     display: flex;
+}
+.admin-home .charts{
+    margin-top: 3rem;   
+}
+.admin-home .admin-boxs .admin-box:nth-child(1){
+    background: linear-gradient(90deg, rgba(187,52,245,1) 0%, rgba(252,219,255,1) 100%);
+}
+.admin-home .admin-boxs .admin-box:nth-child(2){
+  background: linear-gradient(90deg, rgba(211,162,86,1) 0%, rgba(253,232,192,1) 100%);
+}
+.admin-home .admin-boxs .admin-box:nth-child(3){
+    background: linear-gradient(90deg, rgba(254,72,128,1) 0%, rgba(254,205,233,1) 100%);
+}
+.admin-home .admin-boxs .admin-box:nth-child(4){
+    background: linear-gradient(90deg, rgba(106,174,255,1) 0%, rgba(182,247,255,1) 100%);
+}
+.admin-home .admin-boxs .admin-box .icon{
+     margin-right: 1rem;
+}
+.admin-home .admin-boxs .admin-box .icon svg{
+    font-size: 3rem;
+    color: white;
+    margin-top: 3rem;
+}
+.admin-home .admin-boxs .admin-box .box-content p:first-child{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.admin-home .admin-boxs .admin-box .box-content p:nth-child(2){
+    font-size: 2rem;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .admin-home .admin-boxs{
+        grid-template-columns: auto auto auto;
+   }
+}
+@media only screen and (max-width: 600px) {
+    .admin-home .admin-boxs{       
+        grid-template-columns: auto auto;
+   }
+}

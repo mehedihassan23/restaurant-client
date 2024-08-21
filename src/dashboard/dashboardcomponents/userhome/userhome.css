@@ -1,0 +1,77 @@
+.userhome{
+    margin-left: 2rem;
+}
+.userhome .welcome-message{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.userhome .usercards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userhome .usercards .usercard{
+    padding: 1rem 5rem;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.userhome .usercards .usercard:nth-child(1){
+    margin-left: 0;
+}
+.userhome .usercards .usercard .usercardicon{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: white;
+}
+.userhome .usercards .usercard div p:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.userhome .usercards .usercard div p:nth-child(2){
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+}
+.userhome .usercards .usercard:nth-child(1){
+    background: linear-gradient(90deg, rgba(187,52,245,1) 0%, rgba(252,219,255,1) 100%);
+     
+}
+.userhome .usercards .usercard:nth-child(2){
+    background: linear-gradient(90deg, rgba(211,162,86,1) 0%, rgba(253,232,192,1) 100%);
+}
+.userhome .usercards .usercard:nth-child(3){
+    background: linear-gradient(90deg,  rgba(254,72,128,1) 0%,  rgba(254,205,233,1) 100%);
+}
+.userhome .user-home-content{
+    display: flex;
+    margin-top: 5rem;
+}
+.userhome .user-home-content .user-profile-picture{
+    width: 48%;
+    height: 25rem;
+    background-color: #FFEDD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userhome .user-home-content .user-profile-picture img{
+    width: 15rem;
+    border-radius: 50%;
+}
+.userhome .user-home-content .user-content{
+    padding-left: 2rem;
+    background-color: #D1A054;
+    width: 48%;
+}
+.userhome .user-home-content .user-content h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.userhome .user-home-content .user-content ul li{
+     list-style: none;
+     font-size: 1.5rem;
+     text-transform: capitalize;
+     color: white;
+}

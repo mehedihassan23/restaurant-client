@@ -1,0 +1,59 @@
+.location{
+    padding: 1rem 5rem;
+}
+.location .locations{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10rem;
+}
+.location .locations div{
+    width: 25rem;
+    background-color: aliceblue;
+    margin: 0 2rem;
+    text-align: center;
+}
+.location .locations div ul li{
+    list-style: none;
+}
+.location .locations div ul li:nth-child(1){
+    font-size: 3rem;
+    color: white;
+    background-color: #D1A054;
+    padding: 1rem 0;
+}
+.location .locations div ul li:nth-child(2){
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+.location .locations div ul li:nth-child(3){
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.location .locations div ul li:nth-child(4){
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .location .locations div{
+        width: 20rem;
+        margin: 0 1rem;      
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .location .locations{
+        grid-template-columns: auto;
+        place-items: center;
+    }
+    .location .locations div{
+        width: 35rem;
+        margin: 2rem  0     
+    }
+}

@@ -1,0 +1,27 @@
+.admin-sidebar ul{
+    margin-left: 2rem;
+}
+.admin-sidebar hr{
+    width: 90%;
+    margin: 3rem 0;
+}
+.admin-sidebar ul li:first-child{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 5rem 0;
+    text-transform: uppercase; 
+}
+.admin-sidebar ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.admin-sidebar ul li a.admin-sidebar-link{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.admin-sidebar ul li a.admin-sidebar-link svg{
+    font-size: 2rem;
+    margin-right: 1rem;
+}

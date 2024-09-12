@@ -47,7 +47,7 @@ const CheckOutForm = () => {
         const { error } = await stripe.confirmPayment({
             elements,
             confirmParams: {
-              return_url: "http://localhost:5173/payment/success",
+              return_url: "https://restaurant-client-pink-eight.vercel.app/payment/success",
             }
           });
 
